@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construcción de la Capa de Negocios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 24px;
+        }
+        .main-content {
+            background: #fff;
+            padding: 20px;
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .text-content {
+            max-width: 60%;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Construcción de la Capa de Negocios</h1>
+    </header>
+
+    <div class="container">
+        <section class="main-content">
+            <img src="/imagen2.png" alt="Capa de Negocios">
+            <div class="text-content">
+                <h2>¿Qué es la Capa de Negocios?</h2>
+                <p>La capa de negocios es una parte crucial de la arquitectura de software en una aplicación. Es responsable de procesar los datos entre la capa de presentación y la capa de acceso a datos. Esta capa incluye la lógica de negocio, las reglas de negocio y los algoritmos que la aplicación utiliza para operar.</p>
+                
+                <h2>Elementos Clave de la Capa de Negocios</h2>
+                <ul>
+                    <li><strong>Lógica de Negocio:</strong> Implementa las reglas y procedimientos específicos de la aplicación.</li>
+                    <li><strong>Validación de Datos:</strong> Verifica que los datos sean correctos y cumplan con las reglas de negocio antes de ser procesados.</li>
+                    <li><strong>Gestión de Transacciones:</strong> Controla las operaciones de negocio que deben ser atómicas, consistentes, aisladas y duraderas (ACID).</li>
+                    <li><strong>Servicios de Negocio:</strong> Proporciona funcionalidades específicas del negocio que pueden ser reutilizadas en diferentes partes de la aplicación.</li>
+                </ul>
+                
+                <h2>Importancia de la Capa de Negocios</h2>
+                <p>La capa de negocios es esencial para mantener la coherencia y la integridad de los datos, garantizar que las reglas de negocio se apliquen correctamente y permitir que la aplicación evolucione de manera ordenada y escalable.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
